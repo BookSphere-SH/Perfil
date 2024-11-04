@@ -1,0 +1,23 @@
+.custom-toolbar {
+  background-color: #e04e0b; /* Naranja */
+  color: white; /* Color del texto */
+}
+
+.custom-toolbar .mat-icon {
+  color: white; /* Color del ícono */
+}
+
+.custom-toolbar a {
+  color: white; /* Color del enlace */
+  margin-left: 10px;
+}
+
+.custom-toolbar a:hover {
+  color: #f5f5f5; /* Color del enlace al pasar el ratón */
+
+}.custom-toolbar .mat-button {
+   color: white; /* Color del ícono */
+ }
+main {
+  flex: 1; /* Ensures the main content takes up available space */
+}

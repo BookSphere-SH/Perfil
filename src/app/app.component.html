@@ -1,0 +1,16 @@
+<!-- app.component.html -->
+<mat-toolbar class="custom-toolbar">
+  <img Src="https://booksphere-sh.netlify.app/images/logo-sinfondo1.png" alt="BookSphere-Logo" style="height: 100px; margin-right: 10px;"/>
+  <span class="mat-spacer"></span>
+@for(option of options; track option.title) {
+  <a mat-button [routerLink]="option.path">{{ option.title }}</a>
+}
+</mat-toolbar>
+
+
+<div class="app-container">
+
+  <h1>{{ title }}</h1>
+  <router-outlet></router-outlet>
+
+</div>
